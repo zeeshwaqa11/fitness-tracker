@@ -1,0 +1,21 @@
+{
+  "name": "fitness-tracker-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express + SQLite REST API for the Fitness Tracker",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "reset": "node src/db/reset.js",
+    "reset:empty": "node src/db/reset.js --empty",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.2"
+  }
+}
