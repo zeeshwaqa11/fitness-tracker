@@ -19,6 +19,42 @@ A single-user workout tracker that runs entirely on your machine: log workouts, 
 | Dashboard | Workouts this week and this month, current streak (weeks), volume this week vs last week, workouts per week for 8 weeks (bar), sets per muscle group for 30 days (doughnut), 5 most recent PRs. |
 | Settings | Weight unit (kg or lbs) applied everywhere, and data reset. |
 
+## Screenshots
+
+Captured from the app running with the seeded sample data.
+
+**Dashboard**
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Exercise progress** (charts and PR history)
+
+![Exercise progress](docs/screenshots/exercise-progress.png)
+
+**Workout detail** (with New PR! badges)
+
+![Workout detail](docs/screenshots/workout-detail.png)
+
+**Log / edit workout**
+
+![Log workout](docs/screenshots/log-workout.png)
+
+**Workout history**
+
+![Workout history](docs/screenshots/history.png)
+
+**Personal records**
+
+![Personal records](docs/screenshots/records.png)
+
+**Exercise library**
+
+![Exercises](docs/screenshots/exercises.png)
+
+**Settings**
+
+![Settings](docs/screenshots/settings.png)
+
 ## Setup
 
 Requires Node.js 20 or newer (developed on Node 22).
